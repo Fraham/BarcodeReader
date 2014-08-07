@@ -1,6 +1,6 @@
 ﻿namespace BarcodeReader
 {
-    partial class Form1
+    partial class frmBarcodeReader
     {
         /// <summary>
         /// Required designer variable.

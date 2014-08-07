@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BarcodeReader
 {
-    public partial class Form1 : Form
+    public partial class frmBarcodeReader : Form
     {
-        public Form1()
+        public frmBarcodeReader()
         {
             InitializeComponent();
         }
