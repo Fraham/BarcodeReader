@@ -33,5 +33,22 @@ namespace BarcodeReader
 
             return sb.ToString();
         }
+
+        private void btnOpenFile_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog openDialog = new OpenFileDialog();
+
+                if (openDialog.ShowDialog() == DialogResult.OK)
+                {
+                    lblBarcodeText.Text = DecodeText(openDialog.FileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine(ex);
+            }
+        }
     }
 }
