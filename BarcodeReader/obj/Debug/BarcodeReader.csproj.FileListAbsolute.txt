@@ -1,1 +1,10 @@
 C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\bin\Debug\BarcodeReader.exe.config
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\bin\Debug\BarcodeReader.exe
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\bin\Debug\BarcodeReader.pdb
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\bin\Debug\DataMatrix.net.dll
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.csprojResolveAssemblyReference.cache
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.frmBarcodeReader.resources
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.Properties.Resources.resources
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.csproj.GenerateResource.Cache
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.exe
+C:\Users\Graham\SkyDrive\MiniProjects\BarcodeReader\BarcodeReader\obj\Debug\BarcodeReader.pdb

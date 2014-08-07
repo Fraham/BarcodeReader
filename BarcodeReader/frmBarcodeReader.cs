@@ -20,6 +20,7 @@ namespace BarcodeReader
 
         private string DecodeText(string sFileName)
         {
+            
             DmtxImageDecoder decoder = new DmtxImageDecoder();
             System.Drawing.Bitmap oBitmap = new System.Drawing.Bitmap(sFileName);
             List<string> oList = decoder.DecodeImage(oBitmap);
@@ -29,6 +30,7 @@ namespace BarcodeReader
             foreach (string s in oList)
             {
                 sb.Append(s);
+                Console.WriteLine(s);
             }
 
             return sb.ToString();
@@ -39,6 +41,9 @@ namespace BarcodeReader
             try
             {
                 OpenFileDialog openDialog = new OpenFileDialog();
+
+                openDialog.Filter = "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff" +
+                    "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|";
 
                 if (openDialog.ShowDialog() == DialogResult.OK)
                 {
